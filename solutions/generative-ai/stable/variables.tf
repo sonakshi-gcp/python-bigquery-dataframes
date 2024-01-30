@@ -27,7 +27,7 @@ variable "gcp_user_id" {
 variable "sme_notebook_name" {
   type        = string
   description = "Notebook name"
-  default     = "generative-ai-jupyterlab"
+  default     = "python-bigquery-dataframes"
 }
 
 variable "sme_machine_type" {
